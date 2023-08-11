@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India</title>
+    <style>
+
+        .flag {
+            display: flex;
+            height: 67ch; 
+        }
+
+        .class1 {
+            flex: 1;
+            background-color: orangered;
+        }
+
+        .class2 {
+            flex: 1;
+            background-color: white;
+            background: url("logo1.jpg.jpeg") no-repeat;
+            background-size: 300px;
+            background-position: center;
+            animation-name: spin;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 15s;
+        }
+
+        .class3 {
+            flex: 1;
+            background-color: green;
+           
+        }
+
+        
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+    
+      
+    </style>
+</head>
+<body>
+   
+    <div class="flag">
+        <div class="class1"></div>
+        <div class="class2"></div>
+        <div class="class3"></div>
+    </div>
+    <a href="information.html">next</a>
+</body>
+</html>
